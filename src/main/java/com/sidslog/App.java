@@ -16,6 +16,8 @@ public class App
 {
     public static void main( String[] args ) throws Throwable
     {
-        ModelGenerator.generate();
+//        ModelGenerator.generate();
+        ModelGenerator.generate(ModelGenerator.testClasses());
+        ModelGenerator.dumpPlist();
     }
 }
